@@ -35,9 +35,9 @@ export default function Home({ allPostsData }) {
                 {title}
               </Link>
               <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
+              {id}
+              <br />
+              {date}
             </li>
           ))}
         </u1>
